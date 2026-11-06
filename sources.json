@@ -1,0 +1,66 @@
+[
+  {
+    "id": "B",
+    "authors": "Michael Manville, Brian D. Taylor, Evelyn Blumenberg, & Andrew Schouten",
+    "title": "Vehicle access and falling transit ridership: evidence from Southern California",
+    "publication": "Transportation (Springer), Vol. 50, 2022",
+    "url": "https://doi.org/10.1007/s11116-021-10245-w",
+    "notes": "LA Metro riders are almost 4 times as likely as LA County residents to come from households with incomes under $15,000 per year (44% vs 12%). Proves transit dependency in LA is heavily concentrated in extremely low-income households."
+  },
+  {
+    "id": "C",
+    "authors": "Evelyn Blumenberg, Julene Paul, Miriam Pinski, & Madeline Brozen",
+    "title": "Transportation and Quality-of-Life Effects of Los Angeles's Mobility Wallet",
+    "publication": "Journal of the American Planning Association (JAPA), 2026",
+    "url": "https://doi.org/10.1080/01944363.2026.2675964",
+    "notes": "Evaluates the South LA Universal Basic Mobility pilot. Combined housing and transportation expenditure burden for bottom income quintile households in LA reaches 56%. Flexible mobility subsidies reduced travel time constraints."
+  },
+  {
+    "id": "D",
+    "authors": "Julene Paul, Miriam Pinski, Madeline Brozen, & Evelyn Blumenberg",
+    "title": "Can Subsidized Carshare Programs Enhance Access for Low-Income Travelers?: BlueLA in Los Angeles",
+    "publication": "Journal of Planning Education and Research (JPER), Vol. 43, 2023",
+    "url": "https://doi.org/10.1177/0739456X231200000",
+    "notes": "Low-income transit riders in LA spend disproportionately more time traveling per mile compared to higher-income commuters. Subsidized carshare filled critical transit gaps for non-work trips in Westlake and Pico-Union."
+  },
+  {
+    "id": "E",
+    "authors": "Evelyn Blumenberg, Fariba Siddiq, Samuel Speroni, & Jacob Wasserman",
+    "title": "Putting automobile debt on the map: Race and the geography of automobile debt in California",
+    "publication": "Transportation Research Part A: Policy and Practice, Vol. 188, 2024",
+    "url": "https://doi.org/10.1016/j.tra.2024.104230",
+    "notes": "Automobile debt distress is geographically concentrated in low-income Black and Latino census tracts in LA County where public transit alternatives fail to offer competitive travel times compared to driving."
+  },
+  {
+    "id": "F",
+    "authors": "Los Angeles County Metropolitan Transportation Authority (LA Metro)",
+    "title": "NextGen Bus Plan & Equity Focus Communities Framework",
+    "publication": "LA Metro Board Reports & Equity Hub, 2020",
+    "url": "https://equityhub.metro.net/pages/data-and-maps",
+    "notes": "LA Metro defines Equity Focus Communities (EFCs) using median income under $75k, BIPOC density, and zero-vehicle ownership. Shows over 80% of bus riders earned under $20,000 annually prior to NextGen overhaul."
+  },
+  {
+    "id": "G",
+    "authors": "Rachel Uranga",
+    "title": "L.A. transit riders face scorching heat and lack of shade at bus stops",
+    "publication": "Los Angeles Times, April 2022",
+    "url": "https://www.latimes.com/california/story/2022-04-01/la-bus-riders-heat-shade-equity",
+    "notes": "Fewer than 25% of LA bus stops have shade structures, disproportionately impacting bus riders in low-income South L.A. and Eastside neighborhoods compared to affluent suburbs."
+  },
+  {
+    "id": "H",
+    "authors": "U.S. Census Bureau",
+    "title": "Means of Transportation to Work by Household Income (Table B08121) - Los Angeles County",
+    "publication": "American Community Survey (ACS) 5-Year Estimates, 2022",
+    "url": "https://data.census.gov/",
+    "notes": "Primary census demographic dataset. Shows households earning under $25k represent over 52% of total bus commuters in LA County, while zero-vehicle household rates exceed 28% in Westlake census tracts."
+  },
+  {
+    "id": "I",
+    "authors": "Advance Transit",
+    "title": "Advance Transit app gives real-time updates on buses",
+    "publication": "ProQuest Regional Newsstand (Doc ID: 1929045604), 2017",
+    "url": "https://www.proquest.com/docview/1929045604",
+    "notes": "Database entry cited on Slide 9 of class template. Demonstrates how real-time GPS tracking mobile apps reduce wait-time uncertainty for transit-dependent bus riders."
+  }
+]
