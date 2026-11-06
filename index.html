@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AP Research - Verified Source Deck</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #f8fafc; padding: 2rem; max-width: 900px; margin: 0 auto; }
+    h1 { color: #38bdf8; margin-bottom: 0.5rem; }
+    p { color: #94a3b8; margin-bottom: 2rem; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+    .card h3 { color: #38bdf8; margin-top: 0; }
+    .val { color: #e2e8f0; margin-bottom: 0.75rem; font-size: 0.95rem; line-height: 1.4; }
+    .label { font-weight: bold; color: #fbbf24; }
+    a { color: #38bdf8; text-decoration: none; word-break: break-all; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>AP Research Source Deck (LA Transit & Equity)</h1>
+  <p>Copy details directly into your Google Slides template slides.</p>
+  <div id="container">Loading verified sources...</div>
+
+  <script>
+    fetch('sources.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('container');
+        container.innerHTML = '';
+        data.forEach((item, idx) => {
+          const card = document.createElement('div');
+          card.className = 'card';
+          card.innerHTML = `
+            <h3>SOURCE ${item.id}</h3>
+            <div class="val"><span class="label">Author:</span> ${item.authors}</div>
+            <div class="val"><span class="label">Title:</span> ${item.title}</div>
+            <div class="val"><span class="label">Source / Publication:</span> ${item.publication}</div>
+            <div class="val"><span class="label">URL:</span> <a href="${item.url}" target="_blank">${item.url}</a></div>
+            <div class="val"><span class="label">Notes / Evidence:</span> ${item.notes}</div>
+          `;
+          container.appendChild(card);
+        });
+      })
+      .catch(err => {
+        document.getElementById('container').innerHTML = '<p style="color:#ef4444">Error loading sources.json. Make sure the file exists in the repo.</p>';
+      });
+  </script>
+</body>
+</html>
